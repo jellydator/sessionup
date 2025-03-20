@@ -1,9 +1,9 @@
 # sessionup 🚀
 
-[![GoDoc](https://godoc.org/github.com/swithek/sessionup?status.png)](https://godoc.org/github.com/swithek/sessionup)
-[![Build status](https://travis-ci.org/swithek/sessionup.svg?branch=master)](https://travis-ci.org/swithek/sessionup)
-[![Test coverage](http://gocover.io/_badge/github.com/swithek/sessionup)](https://gocover.io/github.com/swithek/sessionup)
-[![Go Report Card](https://goreportcard.com/badge/github.com/swithek/sessionup)](https://goreportcard.com/report/github.com/swithek/sessionup)
+[![GoDoc](https://godoc.org/github.com/jellydator/sessionup?status.png)](https://godoc.org/github.com/jellydator/sessionup)
+[![Build status](https://travis-ci.org/jellydator/sessionup.svg?branch=master)](https://travis-ci.org/jellydator/sessionup)
+[![Test coverage](http://gocover.io/_badge/github.com/jellydator/sessionup)](https://gocover.io/github.com/jellydator/sessionup)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jellydator/sessionup)](https://goreportcard.com/report/github.com/jellydator/sessionup)
 
 Simple, yet effective HTTP session management and identification package
 
@@ -24,7 +24,7 @@ Simple, yet effective HTTP session management and identification package
 
 ## Installation
 ```
-go get github.com/swithek/sessionup
+go get github.com/jellydator/sessionup
 ```
 
 ## Usage
@@ -123,13 +123,13 @@ lacks randomness or has other issues, pass your custom ID generation function as
 
 ## Store implementations
 - ./memstore/ - in-memory store implementation, already included in this package.
-- [github.com/swithek/sessionup-redisstore](https://github.com/swithek/sessionup-redisstore) - Redis store implementation.
-- [github.com/swithek/sessionup-pgstore](https://github.com/swithek/sessionup-pgstore) - PostgreSQL store implementation.
+- [github.com/jellydator/sessionup-redisstore](https://github.com/jellydator/sessionup-redisstore) - Redis store implementation.
+- [github.com/jellydator/sessionup-pgstore](https://github.com/jellydator/sessionup-pgstore) - PostgreSQL store implementation.
 - [github.com/Hyzual/sessionup-sqlitestore](https://github.com/Hyzual/sessionup-sqlitestore) - SQLite store implementation.
-- [github.com/davseby/sessionup-sqlitestore](https://github.com/davseby/sessionup-sqlitestore) - SQLite store implementation.
-- [github.com/davseby/sessionup-boltstore](https://github.com/davseby/sessionup-boltstore) - Bolt store implementation.
+- [github.com/jellydator/sessionup-sqlitestore](https://github.com/jellydator/sessionup-sqlitestore) - SQLite store implementation.
+- [github.com/jellydator/sessionup-boltstore](https://github.com/jellydator/sessionup-boltstore) - Bolt store implementation.
 
-Custom stores need to implement the [Store](https://godoc.org/github.com/swithek/sessionup#Store) interface to be used by the Manager.
+Custom stores need to implement the [Store](https://godoc.org/github.com/jellydator/sessionup#Store) interface to be used by the Manager.
 
 ## Limitations
 sessionup offers server-only session storing and management, since the functionality to revoke/retrieve session not in the 
