@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/swithek/sessionup"
+	"github.com/jellydator/sessionup"
 )
 
 // MemStore is an in-memory implementation of sessionup.Store.

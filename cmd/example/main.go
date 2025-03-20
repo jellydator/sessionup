@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/swithek/sessionup"
-	"github.com/swithek/sessionup/memstore"
+	"github.com/jellydator/sessionup"
+	"github.com/jellydator/sessionup/memstore"
 )
 
 var users = map[string]struct{}{}

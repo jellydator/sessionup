@@ -5,11 +5,9 @@ import (
 	"errors"
 )
 
-var (
-	// ErrDuplicateID should be returned by Store implementations upon
-	// ID collision.
-	ErrDuplicateID = errors.New("duplicate ID")
-)
+// ErrDuplicateID should be returned by Store implementations upon
+// ID collision.
+var ErrDuplicateID = errors.New("duplicate ID")
 
 // Store provides an easy access to the underlying data store, without
 // exposing any of its internal logic, but providing all the mandatory

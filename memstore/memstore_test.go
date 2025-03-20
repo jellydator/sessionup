@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/swithek/sessionup"
+	"github.com/jellydator/sessionup"
 )
 
 func TestType(t *testing.T) {

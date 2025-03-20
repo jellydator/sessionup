@@ -1,4 +1,4 @@
-module github.com/swithek/sessionup
+module github.com/jellydator/sessionup
 
 go 1.12
 
